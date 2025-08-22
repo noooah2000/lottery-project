@@ -97,7 +97,7 @@ python --version
 
 ### =====2.下載專案=====
 ~~~bash
-git clone https://github.com/noooah2000/lottery_project.git
+git clone https://github.com/noooah2000/lottery-project.git
 cd lottery_project
 ~~~
 
