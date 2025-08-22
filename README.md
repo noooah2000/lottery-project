@@ -1,4 +1,4 @@
-# 樂透篩選系統 (Lottery Filter System)
+# Lottery Filter System
 
 這是一個用於篩選樂透號碼組合的 Python 系統，支援位置組篩選器和號碼組篩選器兩種篩選方式。
 
@@ -33,7 +33,7 @@ lottery_project/
 - 支援多個獎項等級的統計
 
 
-## 📦環境需求
+## 環境需求
 - Python 3.13.5
 - pip（Python 內建套件管理工具）
 - 依賴套件版本：
