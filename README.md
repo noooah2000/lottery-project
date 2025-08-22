@@ -82,25 +82,25 @@ lottery_project/
     cd lottery_project
 
 ### 建立並啟用虛擬環境（名稱：.myvenv）
-#### macOS / Linux
-    python3 -m venv .myvenv
-    source .myvenv/bin/activate
+- macOS / Linux
+        python3 -m venv .myvenv
+        source .myvenv/bin/activate
 
-#### Windows (PowerShell)
-    py -3.13 -m venv .myvenv
-    .\.myvenv\Scripts\Activate.ps1
+- Windows (PowerShell)
+        py -3.13 -m venv .myvenv
+        .\.myvenv\Scripts\Activate.ps1
 
 > 啟用成功後，命令列前綴會顯示 (.myvenv)。
 
 ### 安裝依賴套件（推薦使用 requirements.txt）
     pip install -r requirements.txt
 
-#### 如果專案沒有 requirements.txt，可直接安裝：
-    pip install \
-      numpy==2.3.1 \
-      PySide6==6.9.1 PySide6_Addons==6.9.1 PySide6_Essentials==6.9.1 shiboken6==6.9.1 \
-      python-dateutil==2.9.0.post0 six==1.17.0 \
-      pytz==2025.2 tzdata==2025.2
+如果專案沒有 requirements.txt，可直接安裝：
+        pip install \
+        numpy==2.3.1 \
+        PySide6==6.9.1 PySide6_Addons==6.9.1 PySide6_Essentials==6.9.1 shiboken6==6.9.1 \
+        python-dateutil==2.9.0.post0 six==1.17.0 \
+        pytz==2025.2 tzdata==2025.2
 
 ### 驗證安裝（可選）
     python -c "import numpy, PySide6; print('numpy', numpy.__version__, '| PySide6', PySide6.__version__)"
