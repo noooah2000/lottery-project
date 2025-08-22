@@ -77,7 +77,7 @@ lottery_project/
 ## 下載與使用
 > 以下指令請在系統內建終端機 (Terminal / PowerShell / CMD) 執行。
 
-### 安裝 Python
+### 1. 安裝 Python
 - macOS
 1. 安裝 [Homebrew](https://brew.sh/)
 2. 執行：
@@ -95,13 +95,13 @@ python --version
 ~~~
 顯示 `Python 3.13.5` 代表成功。
 
-### 下載專案
+### 2. 下載專案
 ~~~bash
 git clone https://github.com/noooah2000/lottery_project.git
 cd lottery_project
 ~~~
 
-### 建立並啟用虛擬環境（名稱：.myvenv）
+### 3. 建立並啟用虛擬環境（名稱：.myvenv）
 -macOS / Linux
 ~~~bash
 python3 -m venv .myvenv
@@ -116,7 +116,7 @@ py -3.13 -m venv .myvenv
 
 > 啟用成功後，命令列前綴會顯示 `(.myvenv)`。
 
-### 安裝依賴套件（推薦使用 requirements.txt）
+### 4. 安裝依賴套件（推薦使用 requirements.txt）
 ~~~bash
 pip install -r requirements.txt
 ~~~
@@ -131,12 +131,12 @@ pip install ^
 ~~~
 > 以上是 Windows PowerShell 的換行寫法（用 `^`）。macOS/Linux 可改成單行或用反斜線 `\` 換行。
 
-### 驗證安裝（可選）
+### 5. 驗證安裝（可選）
 ~~~bash
 python -c "import numpy, PySide6; print('numpy', numpy.__version__, '| PySide6', PySide6.__version__)"
 ~~~
 
-### 執行主程式
+### 6. 執行主程式
 ~~~bash
 python main.py
 ~~~
