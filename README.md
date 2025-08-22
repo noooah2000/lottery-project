@@ -73,17 +73,36 @@ lottery_project/
 - `gui.py`: 主視窗介面
 - `gui_helpers.py`: 編輯器對話框和輔助元件
 
-## 🚀 下載與使用
+
+## 下載與使用
 > 以下指令請在系統內建終端機 (Terminal / PowerShell / CMD) 執行。
+
+### 安裝 Python
+- macOS
+1. 安裝 [Homebrew](https://brew.sh/)
+2. 執行：
+   ~~~bash
+   brew install python@3.13
+   ~~~
+
+- Windows
+1. 到 [Python 官方網站](https://www.python.org/downloads/windows/) 下載 **Python 3.13.x (64-bit installer)**
+2. 安裝時勾選 **Add python.exe to PATH**
+
+完成後，輸入以下指令確認：
+~~~bash
+python --version
+~~~
+顯示 `Python 3.13.5` 代表成功。
 
 ### 下載專案
 ~~~bash
-git clone https://github.com/<你的帳號>/lottery_project.git
+git clone https://github.com/noooah2000/lottery_project.git
 cd lottery_project
 ~~~
 
 ### 建立並啟用虛擬環境（名稱：.myvenv）
-- macOS / Linux
+-macOS / Linux
 ~~~bash
 python3 -m venv .myvenv
 source .myvenv/bin/activate
