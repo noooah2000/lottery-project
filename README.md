@@ -75,16 +75,18 @@ lottery_project/
 
 ## 下載與使用
 
+> 以下指令請在系統內建終端機 (Terminal / PowerShell / CMD) 執行
+
 ### 下載專案
     git clone https://github.com/<你的帳號>/lottery_project.git
     cd lottery_project
 
 ### 建立並啟用虛擬環境（名稱：.myvenv）
-- macOS / Linux
+#### macOS / Linux
     python3 -m venv .myvenv
     source .myvenv/bin/activate
 
-- Windows (PowerShell)
+#### Windows (PowerShell)
     py -3.13 -m venv .myvenv
     .\.myvenv\Scripts\Activate.ps1
 
@@ -93,7 +95,7 @@ lottery_project/
 ### 安裝依賴套件（推薦使用 requirements.txt）
     pip install -r requirements.txt
 
-如果專案沒有 requirements.txt，可直接安裝：
+#### 如果專案沒有 requirements.txt，可直接安裝：
     pip install \
       numpy==2.3.1 \
       PySide6==6.9.1 PySide6_Addons==6.9.1 PySide6_Essentials==6.9.1 shiboken6==6.9.1 \
