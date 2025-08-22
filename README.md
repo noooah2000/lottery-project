@@ -83,13 +83,13 @@ cd lottery_project
 ~~~
 
 ### 建立並啟用虛擬環境（名稱：.myvenv）
-**macOS / Linux**
+- macOS / Linux
 ~~~bash
 python3 -m venv .myvenv
 source .myvenv/bin/activate
 ~~~
 
-**Windows (PowerShell)**
+- Windows (PowerShell)
 ~~~powershell
 py -3.13 -m venv .myvenv
 .\.myvenv\Scripts\Activate.ps1
