@@ -67,10 +67,9 @@ pip install PySide6 numpy
 ## 二次限定格式
 
 支援以下輸入格式：
-- 單一數值: `"3"`
-- 範圍: `"1-5"`
-- 列表: `"1,3,5"`
-- 全部: `"a"`
+- Integer: `"3"`
+- Range: `"1-5"`
+- Select all: `"a"`
 
 ## 開發說明
 
@@ -81,7 +80,3 @@ pip install PySide6 numpy
 - `utils.py`: 提供資料解析和統計功能
 - `gui.py`: 主視窗介面
 - `gui_helpers.py`: 編輯器對話框和輔助元件
-
-## 授權
-
-此專案僅供學習和研究使用。
